@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+    color: #fbfb;
+}
+
+header {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-shadow:3px 3px 5px mintcream;
+    padding: 2px;
+    margin: 4px;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav li {
+    display: flex;
+    padding: 3px;
+    margin: 3px;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white
+}
+
+#label {
+    display: flex;
+    padding: 8px ;
+    float: left;
+    color: rgb(210, 243, 23);
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navBar {
+    margin-bottom: 5px;
+    background: rgb(4, 101, 146);
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+li a:hover
+{
+    color: lemonchiffon;
+    text-shadow: 3px 3px 5px red;
+}
+
+.container p {
+    color: black;
+}
+.container a {
+    text-decoration: underline;
+}
+.container a:hover{
+    color: mintcream;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    color:black;
+    padding: 6px;
+    background-color: darkkhaki;
+}
+
+p {
+   
+}
+
+@media screen and (max-width:600px) {
+    #navBar {
+        width: 100%;
+    }
+    header {
+        display: flex;
+        width: 100%;
+        
+    }
+    .container p{
+       display: flex;
+       justify-content: center;
+
+    }
+    #footer {
+        width: 100%;
+    }
+}
